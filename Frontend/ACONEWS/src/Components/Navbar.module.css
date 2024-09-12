@@ -1,0 +1,25 @@
+.navbar{
+    padding: 1rem;
+    background-color: skyblue;
+    margin-bottom: 1rem;
+}
+
+.navbar .filter{
+    padding: 0.25rem;
+    
+    margin-inline: 1rem;
+    border-radius: 0.25rem;
+    
+    border-width: 1px;
+    border-color: rgb(109, 210, 250);
+}
+
+.filter:focus{
+    border-width: 1px;
+    outline-width: 1px;
+    outline-color: hsl(197, 79%, 55%);
+}
+
+.search-button{
+    margin-top: 1rem;
+}
