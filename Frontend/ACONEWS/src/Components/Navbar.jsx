@@ -4,10 +4,10 @@ import { fetchNews } from '../APIHandler/apiHandler'
 
 
 export const Navbar = ({ parent }) => {
-    const [search, setSearch] = useState('')
+    const [search, setSearch] = useState('latest news')
     const [region, setRegion] = useState('in')
     const [category, setCategory] = useState('general')
-    const [language, setLanguage] = useState('english')
+    const [language, setLanguage] = useState('en')
 
     useEffect(()=>{
         onSearchClick()

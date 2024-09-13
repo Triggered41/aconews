@@ -6,7 +6,7 @@ import { useEffect, useRef, useState } from 'react'
 
 
 const example = {title: 'Iphone century', description: 'Iphone century is 100th iphone that has all the feature of all the devices ever invented', image:undefined}
-const maxArticlePerPage = 3
+const maxArticlePerPage = 6
 
 function getNews(setNews, setPageCount, e) {
     const temp = e.detail.articles.map((val, i)=>{ return {...val, page: Math.ceil((i+1)/maxArticlePerPage)}})
